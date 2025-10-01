@@ -1,1 +1,1 @@
-# Naveenapolineni05-practice-quizApp-NaveenaPolineni
+practice-quizApp-NaveenaPolineni

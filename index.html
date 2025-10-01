@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .choices {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 0;
+    }
+    button {
+      margin: 0.3rem 0;
+      padding: 0.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #feedback {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    #nextBtn {
+      margin-top: 1rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Quiz App</h1>
+
+  <p id="question">Question will go here</p>
+
+  <div class="choices">
+    <button class="choiceBtn"></button>
+    <button class="choiceBtn"></button>
+    <button class="choiceBtn"></button>
+    <button class="choiceBtn"></button>
+  </div>
+
+  <p id="feedback"></p>
+  <button id="nextBtn">Next Question</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
